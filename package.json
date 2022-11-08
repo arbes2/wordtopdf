@@ -1,0 +1,28 @@
+{
+  "name": "wordtopdf",
+  "version": "1.0.0",
+  "description": "An online app to convert docx to pdf",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nodejs",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbes2/wordtopdf.git"
+  },
+  "author": "Arbes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arbes2/wordtopdf/issues"
+  },
+  "homepage": "https://github.com/arbes2/wordtopdf#readme",
+  "dependencies": {
+    "docx-pdf": "^0.0.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0"
+  }
+}
