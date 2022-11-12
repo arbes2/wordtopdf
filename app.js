@@ -21,8 +21,8 @@ app.get('/', function(req,res){
 //post the upload file 
 app.post('/upload', function(req,res){
     console.log(req.files);
-    if(req.files.upfiles){
-        var file = req.files.upfiles,
+    if(req.files.upfile){
+        var file = req.files.upfile,
         name = file.name,
         type = file.mimetype;
         //file where .docx will be downloaded
@@ -46,7 +46,7 @@ app.post('/upload', function(req,res){
                         console.log(err);
                     }
                     console.log('result'+result);
-                    res.sendfile(__dirname+'/down_html.html')
+                    res.sendFile(__dirname+'/down_html.html')
                 });
             }
         });
